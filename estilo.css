@@ -156,14 +156,6 @@ footer{
 	float: left
 }
 
-#mapa{
-	width: 432px;
-	height: auto;
-	overflow: hidden;
-	border: 1px solid #ccc;
-	padding: 5px;
-	float: right;
-}
 
 input[type="text"]{
 	border: 1px solid #c1c1c1; padding: 6px;
