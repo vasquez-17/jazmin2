@@ -1,0 +1,47 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<meta charset="utf-8">
+<title>Formulario de Registro SCIII</title>
+<section id="IPC">
+			<center><img src="img/ipc.jpg" width="1250" height="300"></center>
+			</section>
+<nav class="menu">
+					<ul>
+						<a href="inicio.html">INICIO</a>
+						<a href="acerca de.html"> ACERCA DE</a>
+					    <a href="SERVICIOS.html">SERVICIOS</a>
+						<a href="contacto.html">CONTACTO</a>
+						<a href="registro.html">REGISTRO</a>
+					</br>
+</head>
+<body background="fond.jpg">
+	<div class="group">
+		<center>
+		<form action="registro.php" method="POST">
+			<h2><em>Fromulario de registro</em></h2>
+
+			<label for="nombre">Nombre<span><em>(requerido)</em></span></label>
+			<input type="text" name="nombre" class="form-input"required/>
+			<br>
+			<br>
+			<label for="apellido">Apellido<span><em>(requerido)</em></span></label>
+			<input type="text" name="apellido" class="form-input" required/>
+			<br>
+			<br>
+			<label for="correo electronico">Correo Electronico <span><em>(requerido)</em></span></label>
+			<input type="text" name="correo electronico" class="form-input" required/>
+			<br>
+			<br>
+			<label for="telefono">Telefono <span><em>(requerido)</em></span></label>
+			<input type="text" name="telefono" class="form-input" required/>
+			<br>
+			<br>
+
+			<color=red><input class="form-btn" name="submit" type="submit" value="Enviar" /></color>
+		</p>
+		</form>
+	</center>
+	</div>
+</body>
+</html>
